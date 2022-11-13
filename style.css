@@ -353,7 +353,7 @@ header .header-left h1 {
 }
 
 .header-right li {
-    font-size: 2px;
+    font-size: 10px;
 }
 .works-title {
     font-size: 35px;
@@ -370,13 +370,13 @@ a {
     font-size: 14px;
 }
 .ep li{
-    font-size: 5px;
+    font-size: 10px;
     font-weight: bold;
     line-height: 20px;
     width: 100%;
 }
 .ep .link_url {
-    font-size: 1px;
+    font-size: 10px;
     margin-top: 50px;
 }
 .ep sp_span {
@@ -389,7 +389,7 @@ a {
     margin-right: 60px;
 }
 .explation .ep_sp {
-    font-size: 1px;
+    font-size: 10px;
     display: inline-flex;
 }
 .title-border {
@@ -465,7 +465,7 @@ p {
     font-size: 35px;
 }
 .p_sp {
-    font-size: 3px;
+    font-size: 10px;
 }
 /* ------------------------
  
@@ -500,7 +500,7 @@ footer {
     display: contents;
 }
 footer li {
-    font-size: 1px;
+    font-size: 10px;
     display: table-cell;
 }
 footer p {
