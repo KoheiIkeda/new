@@ -1,0 +1,511 @@
+body {
+    background-color: #000000;
+    color: #fff;
+    font-family: 'Times New Roman', Times, serif;
+}
+
+/* トップの写真 */
+.top_pic {
+    width: 100%;
+}
+header .wrapper h1 {
+    font-size: 2.4rem;
+    font-weight: normal;
+    font-family: 'Times New Roman', Times, serif;
+    text-align: left;
+}
+header li{
+    padding: 8px 25px;
+    justify-content: space-around;
+    margin: 0 auto;
+    position: relative;
+    display: inline-block;
+    text-decoration: none;
+  }
+/* ホバーすると線が伸びる */
+  a::after {
+    position: absolute;
+    bottom: -4px;
+    left: 0;
+    content: '';
+    width: 100%;
+    height: 2px;
+    background: #fff;
+    transform: scale(0, 1);
+    transform-origin: left top;
+    transition: transform .3s;
+  }
+  a:hover::after {
+    transform: scale(1, 1);
+  }
+header ul {
+    text-align: right;
+}
+.header-left h1{
+    margin-top: 20px;
+    margin-left: 15px;
+} 
+ul li a {
+    text-decoration: none;
+    color: #fff;
+}
+.li {
+    list-style: none;
+}
+
+/* -------------------------
+
+           works
+
+--------------------------*/
+.spbr {
+    display: none;
+}
+.works-title {
+    padding-top: 120px;
+    letter-spacing: 0.2rem;
+    text-align: center;
+    border-bottom: 1px solid #fff;
+    letter-spacing: 13px;
+    font-size: 80px;
+    margin: 0 15.5%;
+}
+.comment {
+    margin: 0 15.5%;
+    line-height: 32px;
+    font-size: 17px;
+    font-weight: bold;
+    font-family: "Yu Gothic", "游ゴシック", YuGothic, "游ゴシック体";
+}
+h2 {
+    font-size: 2rem;
+}
+
+.sample{
+    text-align: center;
+}
+.pc_sp-sample {
+	width:60%;
+    filter: drop-shadow(3px 1px 3px #fff); 
+    margin-top: 50px;
+}
+/* URLを円で囲む */
+.link_url a {
+    width: 200px;
+    border: 3px solid #696969;
+    border-radius: 30px;
+    padding: 8px 24px;
+    margin-right: 60px;
+}
+.link_url {
+    margin-top: 70px;
+}
+.explation ul {
+    list-style: none;
+}
+h3 {
+    text-align: center;
+    margin-top: 100px;
+    font-size: 25px;
+    letter-spacing: 10px;
+    font-family: "Yu Gothic", "游ゴシック", YuGothic, "游ゴシック体";
+
+}
+.ep {
+   letter-spacing: 10px;
+   text-align: center;
+   margin-top: 100px;
+   margin-bottom: 100px;
+   font-family: "Yu Gothic", "游ゴシック", YuGothic, "游ゴシック体";
+   font-weight: bold;
+}
+.ep span {
+    padding-right: 10em;
+}
+.link_url span {
+    padding-right: 8em;
+
+}
+li {
+    list-style: none;
+    margin-top: 30px;
+    font-size: 17px;
+    font-weight: bold;
+}
+.title-border {
+    font-family: "Yu Gothic", "游ゴシック", YuGothic, "游ゴシック体";
+    margin-bottom: 50px;
+    letter-spacing: 10px;
+    margin-bottom: 100px;
+}
+
+h4 {
+    font-size: 20px;
+    border-bottom: 2px solid #fff;
+    display: inline-block;
+}
+.setting-text {
+    letter-spacing: 3px;
+    font-weight:600;
+    margin-bottom: 100px;
+    margin-top: 50px;
+}
+.story-text {
+    letter-spacing: 3px;
+    font-weight: bold;
+    margin-bottom: 100px;
+    margin-top: 50px;
+}
+.story-text span {
+    padding-right: 3em;
+}
+
+/*----------------------------
+
+            about
+
+-------------------------------*/
+.about-container {
+    display: flex;
+    text-align: center;
+    margin-top: 150px;
+}
+.about_center {
+    margin-top: -100px;
+}
+.about-img img {
+    width: 60%;
+    text-align: center;
+    border-radius: 80%;
+    margin-left: 400px;
+    text-align: center;
+}
+.about_text {
+    width:100%;
+    margin-left: 300px;
+    font-size: 20px;
+    font-family: "Yu Gothic", "游ゴシック", YuGothic, "游ゴシック体";
+    text-align: justify;
+    font-weight: bold;
+}
+.about_border {
+    border-bottom: 2px solid #fff;
+    display: inline-block;
+}
+.about-title {
+    padding-top: 120px;
+    letter-spacing: 0.2rem;
+    text-align: center;
+    border-bottom: 1px solid #fff;
+    letter-spacing: 13px;
+    font-size: 80px;
+    margin: 0 15.5%;
+}
+/* --------------------
+
+         history
+
+---------------------*/ 
+.history_text {
+    width:100%;
+    text-align: center;
+    font-size: 17px;
+    font-family: "Yu Gothic", "游ゴシック", YuGothic, "游ゴシック体";
+    text-align: justify;
+}
+.history-title {
+    padding-top: 120px;
+    letter-spacing: 0.2rem;
+    text-align: center;
+    border-bottom: 1px solid #fff;
+    letter-spacing: 13px;
+    font-size: 80px;
+}
+.personal-history {
+    margin: 0 15.5%;
+}
+.set-text {
+    font-family: "Yu Gothic", "游ゴシック", YuGothic, "游ゴシック体";
+    font-size: 17px;
+    font-weight: bold;
+    line-height: 20px;
+}
+.year {
+    font-size: 13px;
+    color: #a1a1a1;
+    font-weight: 600;
+}
+h4 {
+    font-family: "Yu Gothic", "游ゴシック", YuGothic, "游ゴシック体";
+}
+/* -----------------------
+
+          passion
+
+-------------------------*/
+
+/* Q&A */
+#QandA-1 {
+	width: 100%;
+	font-family: "Yu Gothic", "游ゴシック", YuGothic, "游ゴシック体";
+	font-size: 17px;
+    margin-top: 100px;
+    font-weight: bold;
+}
+/* #QandA-1 h2 {
+
+} */
+#QandA-1 dt {
+	background: #777;
+	color: #fff; 
+	padding: 8px;
+	border-radius: 2px;
+}
+#QandA-1 dt:before {
+	
+	font-weight: bold;
+	margin-right: 8px;
+}
+#QandA-1 dd {
+	margin: 24px 16px 40px 32px;
+	line-height: 140%;
+	text-indent: -24px;
+}
+#QandA-1 dd:before {
+	content: "A.";
+	font-weight: bold;
+	margin-right: 8px;
+}
+#QandA-1 h2 {
+    font-size: 20px;
+    margin-bottom: 50px;
+    margin-left: 30px;
+    font-weight: bold;
+    border-bottom: 2px solid #fff;
+    display: inline-block;
+}
+.passion-title {
+    padding-top: 120px;
+    letter-spacing: 0.2rem;
+    text-align: center;
+    border-bottom: 1px solid #fff;
+    letter-spacing: 13px;
+    font-size: 80px;
+    margin: 0 15.5%;
+}
+
+
+/* -----------------------
+
+           footer
+
+-------------------------*/
+
+footer{
+    width: 100%;
+    height: 100px;
+    color: #fff;
+    text-align: center;
+    margin-top: 200px;
+    text-align: center;
+    font-size: 18px;
+    
+}
+footer li{
+    padding: 8px 25px;
+    justify-content: space-around;
+    margin: 0 auto;
+    position: relative;
+    display: inline-block;
+    text-decoration: none;
+  }
+/* ホバーすると線が伸びる */
+  a::after {
+    position: absolute;
+    bottom: -4px;
+    left: 0;
+    content: '';
+    width: 100%;
+    height: 2px;
+    background: #fff;
+    transform: scale(0, 1);
+    transform-origin: left top;
+    transition: transform .3s;
+  }
+  a:hover::after {
+    transform: scale(1, 1);
+  }
+footer p {
+    color: #777;
+}
+
+/* --------------------------
+
+             Base
+
+----------------------------*/
+
+@media screen and (max-width:480px) {
+    /*　画面サイズが480pxからはここを読み込む　*/
+
+header .header-left h1 {
+    font-size: 20px;
+}
+
+.header-right li {
+    font-size: 2px;
+}
+.works-title {
+    font-size: 35px;
+}
+a {
+    pointer-events: none;
+ }
+ .pc_sp-sample {
+	width:50%;
+    filter: drop-shadow(3px 1px 3px #fff); 
+    margin-top: 50px;
+}
+.explation h3 {
+    font-size: 14px;
+}
+.ep li{
+    font-size: 5px;
+    font-weight: bold;
+    line-height: 20px;
+    width: 100%;
+}
+.ep .link_url {
+    font-size: 1px;
+    margin-top: 50px;
+}
+.ep sp_span {
+    padding-right: initial;
+}
+.link_url a {
+    width: auto;
+    border: 1px solid #696969;
+    border-radius: 30px;
+    margin-right: 60px;
+}
+.explation .ep_sp {
+    font-size: 1px;
+    display: inline-flex;
+}
+.title-border {
+    font-size: 14px;
+}
+h4 {
+    font-size: 14px;
+    border-bottom: 1px solid #fff;
+    display: inline-block;
+}
+p {
+    font-size: 12px;
+    font-weight: bold;
+}
+.spbr {
+    display: block;
+}
+/* --------------------------
+
+            about
+
+-----------------------------*/
+
+.about-container {
+    display: block;
+    text-align: center;
+    margin-top: 60px;
+}
+/* .about_center {
+    margin-top: -100px;
+} */
+.about-img img {
+    width: 40%;
+    border-radius: 80%;
+    text-align: center;
+    float: none;
+    margin: 0;
+}
+.about_text {
+    margin: initial;
+    margin-left: 20px;
+    margin-top: 30px;
+    margin-bottom: -50px;
+    font-size: 20px;
+    font-family: "Yu Gothic", "游ゴシック", YuGothic, "游ゴシック体";
+    font-weight: bold;
+}
+.about_border {
+    border-bottom: 2px solid #fff;
+    display: inline-block;
+}
+.about-title {
+    padding-top: 120px;
+    letter-spacing: 0.2rem;
+    text-align: center;
+    border-bottom: 1px solid #fff;
+    letter-spacing: 13px;
+    font-size: 35px;
+    margin: 0 15.5%;
+}
+.about_text .about_border{
+    font-size: 14px;
+}
+
+
+/* ----------------------
+
+          history
+
+-------------------------*/
+
+.history-title {
+    font-size: 35px;
+}
+.p_sp {
+    font-size: 3px;
+}
+/* ------------------------
+ 
+         passion
+
+-------------------------*/
+.passion-title {
+    font-size: 35px;
+    margin-top: -50px;
+    margin-bottom: -30px;
+}
+#QandA-1 {
+    font-size: 12px;
+}
+#QandA-1 dd {
+    margin-top: 40px;
+}
+#QandA-1 dt {
+    background: #777;
+    color: #fff;
+    padding: 8px;
+    border-radius: 2px;
+}
+/* ------------------------
+
+          footer
+
+----------------------------*/
+footer {
+    margin-top: -10px;
+    text-align: center;
+    display: contents;
+}
+footer li {
+    font-size: 1px;
+    display: table-cell;
+}
+footer p {
+    text-align: center;
+    /* margin-top: 60px;
+     */
+}
+}
