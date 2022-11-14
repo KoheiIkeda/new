@@ -367,9 +367,7 @@ header .header-left h1 {
 .works-title {
     font-size: 35px;
 }
-a {
-    pointer-events: none;
- }
+
  .pc_sp-sample {
 	width:50%;
     filter: drop-shadow(3px 1px 3px #fff); 
