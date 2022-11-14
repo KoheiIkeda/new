@@ -361,6 +361,8 @@ header .header-left h1 {
 .header-right li {
     font-size: 10px;
     font-family: "Yu Gothic", "游ゴシック", YuGothic, "游ゴシック体";
+    display: inline;
+    padding: 10px
 }
 .works-title {
     font-size: 35px;
