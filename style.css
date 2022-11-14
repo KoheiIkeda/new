@@ -348,8 +348,14 @@ footer p {
 @media screen and (max-width:480px) {
     /*　画面サイズが480pxからはここを読み込む　*/
 
+#wrapper {
+    overflow: hidden;
+}
 header .header-left h1 {
     font-size: 20px;
+}
+.explation span {
+    display: none;
 }
 
 .header-right li {
@@ -369,8 +375,12 @@ a {
 .explation h3 {
     font-size: 14px;
 }
+.explation ul li{
+    text-align: center;
+    ;
+}
 .ep li{
-    font-size: 10px;
+    font-size: 5px;
     font-weight: bold;
     line-height: 20px;
     width: 100%;
@@ -379,19 +389,17 @@ a {
     font-size: 10px;
     margin-top: 50px;
 }
-.ep sp_span {
-    padding-right: initial;
-}
+
 .link_url a {
     width: auto;
     border: 1px solid #696969;
     border-radius: 30px;
     margin-right: 60px;
 }
-.explation .ep_sp {
+/* .explation .ep_sp {
     font-size: 10px;
     display: inline-flex;
-}
+} */
 .title-border {
     font-size: 14px;
 }
@@ -486,7 +494,7 @@ p {
 #QandA-1 dt {
     background: #777;
     color: #fff;
-    padding: 8px;
+    padding: 8px 0;
     border-radius: 2px;
 }
 /* ------------------------
@@ -500,7 +508,7 @@ footer {
     display: contents;
 }
 footer li {
-    font-size: 10px;
+    font-size: 8px;
     display: table-cell;
 }
 footer p {
