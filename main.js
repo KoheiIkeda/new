@@ -13,12 +13,3 @@ $('.title').on('click', function() {
 	}
 });
 
-$(window).on('load', function(){
-	$('.accordion-area li:first-of-type section').addClass("open"); 
-	$(".open").each(function(index, element){	
-		var Title =$(element).children('.title');
-		$(Title).addClass('close');				
-		var Box =$(element).children('.box');	
-		$(Box).slideDown(500);				
-	});
-});
