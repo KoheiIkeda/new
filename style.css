@@ -427,9 +427,11 @@ footer p {
 @media screen and (max-width:480px) {
     /*　画面サイズが480pxからはここを読み込む　*/
 
-
 header .header-left h1 {
     font-size: 20px;
+}
+.onbr_on {
+    display: none;
 }
 .explation span {
     display: block;
@@ -463,6 +465,10 @@ header .header-left h1 {
 .explation{
     text-align: center;
     display: inline-block;
+    padding: 0;
+}
+.ep ul {
+    padding: 0;
 }
 .ep li{
     font-size: 14px;
@@ -594,7 +600,7 @@ p {
 .accordion-area {
     width: auto;
     text-align: center;
-    padding: 0;
+    padding: 1%;
 }
 .title {
     font-size: 12px;
@@ -602,6 +608,10 @@ p {
     height: auto;
     text-align: center;
     font-weight: 800;
+}
+.box p{
+    text-align: left;
+     font-size: 14px;
 }
 .passion {
     text-align: center;
@@ -618,12 +628,14 @@ footer {
     padding: 0;
 }
 footer li {
-    font-size: 12px;
-    display: table-cell;
-    padding: auto;
+    font-size: 10px;
+    display: inline;
+   
 }
-
+footer ul {
+    padding: 0;
+}
 footer p {
-    font-size: 8px;
+    font-size: 7px;
 }
 }
