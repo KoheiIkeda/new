@@ -2,6 +2,7 @@ body {
     background-color: #000000;
     color: #fff;
     font-family: 'Times New Roman', Times, serif;
+    
 }
 
 /* トップの写真 */
@@ -244,6 +245,80 @@ h4 {
 
 -------------------------*/
 
+/*アコーディオン全体*/
+.accordion-area{
+    list-style: none;
+    width: 96%;
+    max-width: 900px;
+    margin:0 auto;
+    margin-top: 100px;
+
+}
+
+.accordion-area li{
+    margin: 10px 0;
+}
+
+.accordion-area section {
+	border: 1px solid #ccc;
+}
+
+/*アコーディオンタイトル*/
+.title {
+    position: relative;/*+マークの位置基準とするためrelative指定*/
+    cursor: pointer;
+    font-size:20px;
+    font-weight: bold;
+    padding: 3% 3% 3% 50px;
+    transition: all .5s ease;
+    margin-bottom: 100px;
+    font-family: "Yu Gothic", "游ゴシック", YuGothic, "游ゴシック体";
+}
+
+/*アイコンの＋と×*/
+.title::before,
+.title::after{
+    position: absolute;
+    content:'';
+    width: 15px;
+    height: 2px;
+    background-color: #fff;
+    
+}
+.title::before{
+    top:48%;
+    left: 15px;
+    transform: rotate(0deg);
+    
+}
+.title::after{    
+    top:48%;
+    left: 15px;
+    transform: rotate(90deg);
+
+}
+
+/*　closeというクラスがついたら形状変化　*/
+
+.title.close::before{
+	transform: rotate(45deg);
+}
+
+.title.close::after{
+	transform: rotate(-45deg);
+}
+
+/*アコーディオンで現れるエリア*/
+.box {
+    display: none;/*はじめは非表示*/
+    background: #f3f3f3;
+	margin:0 3% 3% 3%;
+    padding: 3%;
+    color: #000000;
+    font-family: "Yu Gothic", "游ゴシック", YuGothic, "游ゴシック体";
+}
+
+
 /* Q&A */
 #QandA-1 {
 	width: 100%;
@@ -355,41 +430,48 @@ header .header-left h1 {
     font-size: 20px;
 }
 .explation span {
-    display: none;
+    display: block;
 }
 
 .header-right li {
     font-size: 10px;
-    font-family: "Yu Gothic", "游ゴシック", YuGothic, "游ゴシック体";
     display: inline;
     padding: 10px
 }
 .works-title {
     font-size: 35px;
 }
-
+.setting-text p{
+    font-size: 14px;
+    font-weight: 500;
+}
  .pc_sp-sample {
 	width:50%;
     filter: drop-shadow(3px 1px 3px #fff); 
     margin-top: 50px;
 }
+.up-section ul{
+    text-align: center;
+}
 .explation h3 {
-    font-size: 14px;
+    font-size: 16px;
+    font-weight: 500;
     font-family: "Yu Gothic", "游ゴシック", YuGothic, "游ゴシック体";
 }
-.explation ul li{
+.explation{
     text-align: center;
-    ;
+    display: inline-block;
 }
 .ep li{
-    font-size: 10px;
-    font-weight: bold;
+    font-size: 14px;
+    font-weight: 500;
     line-height: 20px;
     width: 100%;
     font-family: "Yu Gothic", "游ゴシック", YuGothic, "游ゴシック体";
 }
 .ep .link_url {
-    font-size: 10px;
+    font-size: 14px;
+    font-weight: 500;
     margin-top: 50px;
     font-family: "Yu Gothic", "游ゴシック", YuGothic, "游ゴシック体";
 }
@@ -400,10 +482,14 @@ header .header-left h1 {
     border-radius: 30px;
     margin-right: 60px;
 }
-/* .explation .ep_sp {
-    font-size: 10px;
-    display: inline-flex;
-} */
+.comment h4 {
+    font-size: 14px;
+    font-weight: 500;
+}
+.story-text p {
+    font-weight: 500;
+    font-size: 14px;
+}
 .title-border {
     font-size: 14px;
 }
@@ -443,13 +529,13 @@ p {
     margin: 0;
 }
 .about_text {
-    margin: initial;
+    /* margin: initial; */
     margin-left: 20px;
     margin-top: 30px;
     margin-bottom: -50px;
     font-size: 20px;
     font-family: "Yu Gothic", "游ゴシック", YuGothic, "游ゴシック体";
-    font-weight: bold;
+    font-weight: 500;
 }
 .about_border {
     border-bottom: 2px solid #fff;
@@ -466,9 +552,17 @@ p {
 }
 .about_text .about_border{
     font-size: 14px;
+    font-weight: 500;
 }
-
-
+.about_text p {
+    font-size: 14px;
+    font-weight: 500;
+}
+.personal-history h4 {
+    font-weight: 500;
+    font-size: 14px;
+    font-family: "Yu Gothic", "游ゴシック", YuGothic, "游ゴシック体";
+}
 /* ----------------------
 
           history
@@ -478,9 +572,16 @@ p {
 .history-title {
     font-size: 35px;
 }
-.p_sp {
-    font-size: 10px;
+.set-text p{
+    font-size: 14px;
+    font-weight: 500;
+    font-family: "Yu Gothic", "游ゴシック", YuGothic, "游ゴシック体";
 }
+.set-text .p_sp {
+    font-size: 14px;
+    font-weight: 300;
+}
+
 /* ------------------------
  
          passion
@@ -491,19 +592,18 @@ p {
     margin-top: -50px;
     margin-bottom: -30px;
 }
-#QandA-1 {
-    font-size: 12px;
-    font-family: "Yu Gothic", "游ゴシック", YuGothic, "游ゴシック体";
+.accordion-area {
+    text-align: center;
+    width: 80vw;
+    height: 30vw;
 }
-#QandA-1 dd {
-    margin-top: 40px;
+.title {
+    font-size: 14px;
+    margin: 0 auto;
+    text-align: center;
+
 }
-#QandA-1 dt {
-    background: #777;
-    color: #fff;
-    padding: 8px 0;
-    border-radius: 2px;
-}
+
 /* ------------------------
 
           footer
@@ -512,15 +612,14 @@ p {
 footer {
     margin-top: -10px;
     text-align: center;
-    display: contents;
+    display: inline-block;
 }
 footer li {
-    font-size: 10px;
+    font-size: 12px;
     display: table-cell;
 }
+
 footer p {
-    text-align: center;
-    /* margin-top: 60px;
-     */
+    font-size: 8px;
 }
 }
