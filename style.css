@@ -43,8 +43,8 @@ header ul {
     text-align: right;
 }
 .header-left h1{
-    margin-top: 20px;
-    margin-left: 15px;
+    margin-top: 10px;
+    margin-left: 10px;
 } 
 ul li a {
     text-decoration: none;
@@ -221,6 +221,7 @@ h4 {
     border-bottom: 1px solid #fff;
     letter-spacing: 13px;
     font-size: 80px;
+   
 }
 .personal-history {
     margin: 0 15.5%;
@@ -362,7 +363,7 @@ h4 {
 .passion-title {
     padding-top: 120px;
     letter-spacing: 0.2rem;
-    text-align: center;
+    /* text-align: center; */
     border-bottom: 1px solid #fff;
     letter-spacing: 13px;
     font-size: 80px;
@@ -413,6 +414,9 @@ footer li{
 footer p {
     color: #777;
 }
+#wrapper {
+    overflow: hidden;
+}
 
 /* --------------------------
 
@@ -423,9 +427,7 @@ footer p {
 @media screen and (max-width:480px) {
     /*　画面サイズが480pxからはここを読み込む　*/
 
-#wrapper {
-    overflow: hidden;
-}
+
 header .header-left h1 {
     font-size: 20px;
 }
@@ -518,18 +520,15 @@ p {
     text-align: center;
     margin-top: 60px;
 }
-/* .about_center {
-    margin-top: -100px;
-} */
+
 .about-img img {
     width: 40%;
     border-radius: 80%;
     text-align: center;
-    float: none;
+    /* float: none; */
     margin: 0;
 }
 .about_text {
-    /* margin: initial; */
     margin-left: 20px;
     margin-top: 30px;
     margin-bottom: -50px;
@@ -593,17 +592,20 @@ p {
     margin-bottom: -30px;
 }
 .accordion-area {
+    width: auto;
     text-align: center;
-    width: 80vw;
-    height: 30vw;
+    padding: 0;
 }
 .title {
-    font-size: 14px;
+    font-size: 12px;
     margin: 0 auto;
+    height: auto;
     text-align: center;
-
+    font-weight: 800;
 }
-
+.passion {
+    text-align: center;
+}
 /* ------------------------
 
           footer
@@ -613,10 +615,12 @@ footer {
     margin-top: -10px;
     text-align: center;
     display: inline-block;
+    padding: 0;
 }
 footer li {
     font-size: 12px;
     display: table-cell;
+    padding: auto;
 }
 
 footer p {
