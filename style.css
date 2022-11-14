@@ -584,8 +584,6 @@ p {
 footer {
     margin-top: -10px;
     text-align: center;
-    display: inline-block;
-    padding: 0;
 }
 footer li {
     font-size: 10px;
