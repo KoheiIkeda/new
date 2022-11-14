@@ -587,7 +587,7 @@ footer {
 }
 footer li {
     font-size: 10px;
-    display: inline;
+    display: inline-flex;
    
 }
 footer ul {
