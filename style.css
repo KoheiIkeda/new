@@ -360,6 +360,7 @@ header .header-left h1 {
 
 .header-right li {
     font-size: 10px;
+    font-family: "Yu Gothic", "游ゴシック", YuGothic, "游ゴシック体";
 }
 .works-title {
     font-size: 35px;
@@ -374,20 +375,23 @@ a {
 }
 .explation h3 {
     font-size: 14px;
+    font-family: "Yu Gothic", "游ゴシック", YuGothic, "游ゴシック体";
 }
 .explation ul li{
     text-align: center;
     ;
 }
 .ep li{
-    font-size: 5px;
+    font-size: 10px;
     font-weight: bold;
     line-height: 20px;
     width: 100%;
+    font-family: "Yu Gothic", "游ゴシック", YuGothic, "游ゴシック体";
 }
 .ep .link_url {
     font-size: 10px;
     margin-top: 50px;
+    font-family: "Yu Gothic", "游ゴシック", YuGothic, "游ゴシック体";
 }
 
 .link_url a {
@@ -407,10 +411,12 @@ h4 {
     font-size: 14px;
     border-bottom: 1px solid #fff;
     display: inline-block;
+    font-family: "Yu Gothic", "游ゴシック", YuGothic, "游ゴシック体";
 }
 p {
     font-size: 12px;
     font-weight: bold;
+    font-family: "Yu Gothic", "游ゴシック", YuGothic, "游ゴシック体";
 }
 .spbr {
     display: block;
@@ -487,6 +493,7 @@ p {
 }
 #QandA-1 {
     font-size: 12px;
+    font-family: "Yu Gothic", "游ゴシック", YuGothic, "游ゴシック体";
 }
 #QandA-1 dd {
     margin-top: 40px;
@@ -508,7 +515,7 @@ footer {
     display: contents;
 }
 footer li {
-    font-size: 8px;
+    font-size: 10px;
     display: table-cell;
 }
 footer p {
