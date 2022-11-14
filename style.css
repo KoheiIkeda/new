@@ -586,12 +586,11 @@ footer {
     text-align: center;
 }
 footer li {
-    font-size: 10px;
-    display: inline-flex;
-   
+    font-size: 10px; 
 }
 footer ul {
     padding: 0;
+    display: flow-root;
 }
 footer p {
     font-size: 7px;
